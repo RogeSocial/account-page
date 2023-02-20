@@ -3,8 +3,21 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#form {
+#button-text {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.button-group {
+    flex-direction: column;
     width: 300px;
+}
+
+.form {
+    width: 300px;
+    height: 390px;
     margin: 20vh auto 0 auto;
     padding: 20px;
     background-color: whitesmoke;
@@ -12,12 +25,12 @@ body {
     font-size: 12px;
 }
 
-#form h1 {
+.form h1 {
     color: #0f2027;
     text-align: center;
 }
 
-#form button {
+.form button {
     padding: 10px;
     margin-top: 10px;
     width: 100%;
@@ -25,6 +38,7 @@ body {
     background-color: rgb(41, 57, 194);
     border: none;
     border-radius: 4px;
+    bottom: 15px;
 }
 
 .input-control {
