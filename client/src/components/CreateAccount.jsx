@@ -36,10 +36,8 @@ export default function () {
                         <input id="password2" name="password2" type="password"></input>
                         <div className="error"></div>
                     </div>
-                    <div className="button-group">
                         <button type="submit">Sign up</button>
                         <Link to="/"><button id="button-text">Already have an account? Login here.</button></Link>
-                    </div>
                 </form>
             </div>
         </section>
