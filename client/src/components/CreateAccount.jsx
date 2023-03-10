@@ -14,7 +14,7 @@ export default function () {
     return (
         <section>
             <div className="container">
-                <form className="form" action="/src/components/Login.jsx" onSubmit={submit}>
+                <form onSubmit={submit} className="form" method="POST" action="/">
                     <h1>Registration</h1>
                     <div className="input-control">
                         <label htmlFor="username">Username</label>
